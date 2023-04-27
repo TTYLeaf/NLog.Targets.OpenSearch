@@ -4,7 +4,7 @@ using System.Globalization;
 using Newtonsoft.Json;
 using System.IO;
 
-namespace NLog.Targets.ElasticSearch
+namespace NLog.Targets.OpenSearch
 {
     internal static class StringExtensions
     {

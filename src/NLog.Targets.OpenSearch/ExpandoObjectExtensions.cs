@@ -2,7 +2,7 @@
 using System.Dynamic;
 using System.Linq;
 
-namespace NLog.Targets.ElasticSearch
+namespace NLog.Targets.OpenSearch
 {
     internal static class ExpandoObjectExtensions
     {

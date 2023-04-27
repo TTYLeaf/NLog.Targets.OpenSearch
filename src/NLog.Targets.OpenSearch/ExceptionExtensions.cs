@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NLog.Targets.ElasticSearch
+namespace NLog.Targets.OpenSearch
 {
     internal static class ExceptionExtensions
     {

@@ -2,7 +2,7 @@
 using System.Text;
 using Xunit.Abstractions;
 
-namespace NLog.Targets.ElasticSearch.Tests
+namespace NLog.Targets.OpenSearch.Tests
 {
     public class TestOutputTextWriter : TextWriter
     {

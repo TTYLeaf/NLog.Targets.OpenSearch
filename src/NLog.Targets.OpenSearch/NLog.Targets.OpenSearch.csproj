@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461;net472</TargetFrameworks>
+    <Description>An NLog target that utilises the OpenSearch low level client.</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/ReactiveMarkets/NLog.Targets.ElasticSearch/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/TTYLeaf/NLog.Targets.OpenSearch</PackageProjectUrl>
+    <PackageTags>NLog logging target log AWS opensearch</PackageTags>
+    <Authors>Updated By TTYLeaf from ReactiveMarkets</Authors>
+    <Company>TTYLeaf </Company>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>false</DelaySign>    
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NLog" Version="4.6.8" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="OpenSearch.Client" Version="1.3.0" />
+    <PackageReference Include="OpenSearch.Net" Version="1.3.0" />
+    <PackageReference Include="OpenSearch.Net.Auth.AwsSigV4" Version="1.3.0" />
+  </ItemGroup>
+</Project>
