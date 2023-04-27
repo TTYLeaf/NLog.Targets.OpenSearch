@@ -1,11 +1,11 @@
 # NLog.Targets.OpenSearch
 
 [![Build status](https://ci.appveyor.com/api/projects/status/53pvt1ao61hd3ym2/branch/master?svg=true)](https://ci.appveyor.com/project/markmcdowell/nlog-targets-elasticsearch/branch/master)
-[![NuGet Pre Release](https://img.shields.io/nuget/vpre/NLog.Targets.ElasticSearch.svg)](https://www.nuget.org/packages/NLog.Targets.ElasticSearch)
+[![NuGet Pre Release](https://img.shields.io/nuget/vpre/NLog.Targets.ElasticSearch.svg)](https://www.nuget.org/packages/NLog.Targets.OpenSearch)
 
-The Elasticsearch target works best with the BufferingWrapper target applied. By default the target assumes an Elasticsearch node is running on the localhost on port 9200.
+The OpenSearch target works best with the BufferingWrapper target applied.
 
-See [wiki](https://github.com/ReactiveMarkets/NLog.Targets.ElasticSearch/wiki) for parameters.
+See [wiki](https://github.com/ReactiveMarkets/NLog.Targets.OpenSearch/wiki) for parameters.
 
 ```xml
 <nlog>
