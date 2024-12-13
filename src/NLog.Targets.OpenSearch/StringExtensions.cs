@@ -25,6 +25,17 @@ namespace NLog.Targets.OpenSearch
                     return Convert.ToInt32(field, formatProvider);
                 case "System.Int64":
                     return Convert.ToInt64(field, formatProvider);
+                case "System.Int32[]":
+                case "System.Int64[]":
+                    using (var reader = new JsonTextReader(new StringReader(field)))
+                    {
+                        return jsonSerializer.Deserialize<int[]>(reader);
+                    }
+                case "System.String[]":
+                    using (var reader = new JsonTextReader(new StringReader(field)))
+                    {
+                        return jsonSerializer.Deserialize<string[]>(reader);
+                    }
                 case "System.Object":
                     return field.ToExpandoObject(jsonSerializer);
                 default:
